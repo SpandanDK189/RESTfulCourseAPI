@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springboot_rest_mysql_app
+  datasource:
+    username: root
+    password: system
+    url: jdbc:mysql://localhost:3306/sbms
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
